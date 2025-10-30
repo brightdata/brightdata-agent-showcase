@@ -1,0 +1,19 @@
+# Core Web Framework
+streamlit>=1.49.0,<2.0.0              # Main dashboard framework
+
+# Data Processing & Analytics  
+pandas>=2.2.0,<3.0.0                  # DataFrame operations and data manipulation
+numpy>=1.24.0,<3.0.0                  # Statistical operations with better compatibility
+
+# Visualization
+plotly>=6.3.0,<7.0.0                  # Interactive charts and visualizations
+
+# HTTP & Networking
+requests>=2.32.0,<3.0.0               # API requests to Bright Data
+tenacity>=8.5.0,<10.0.0               # Retry logic for API calls
+
+# Configuration & Utilities  
+python-dotenv>=1.1.0,<2.0.0           # Environment variable management
+
+# AI & ML
+google-genai>=1.36.0,<2.0.0           # Google GenAI SDK for Gemini integration
