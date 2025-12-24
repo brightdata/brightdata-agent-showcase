@@ -1,8 +1,8 @@
-# EasyDocs 
+# EasyDocs: 
 
 Transform natural language queries into production-ready API documentation with our intelligent LangGraph-based agent.
 
-## ✨ Features
+## ✨ Features:
 
 - **🧠 Intelligent Query Analysis**: Automatically identifies API platforms (OpenAI, Stripe, Bright Data, etc.) and operation types
 - **🔍 Smart Documentation Extraction**: Uses advanced browser automation to scrape official API documentation
