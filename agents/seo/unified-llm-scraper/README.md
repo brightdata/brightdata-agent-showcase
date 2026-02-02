@@ -1,6 +1,20 @@
 # Universal LLM Scraper
 
-A Python utility that collects responses from multiple major LLMs using Bright Data’s AI Scraper datasets and persists results in Supabase.
+---
+<p align="center">
+  <a href="https://brightdata.com/">
+    <img src="https://mintlify.s3.us-west-1.amazonaws.com/brightdata/logo/light.svg" width="300" alt="Bright Data Logo">
+  </a>
+</p>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/python-3.10+-blue"/>
+  <img src="https://img.shields.io/badge/License-MIT-blue"/>
+</div>
+
+---
+
+A Python utility that collects responses from multiple major LLMs using [Bright Data’s Scraping APIs](https://brightdata.com/products/web-scraper) and persists results in Supabase.
 
 It supports two workflows:
 
@@ -161,5 +175,6 @@ The UI is used for interactive runs, reporting, and schedule management.
 - All runs are persisted in Supabase
 
 - Failures are isolated per model
+
 
 - The UI and headless runner are designed to run in parallel
