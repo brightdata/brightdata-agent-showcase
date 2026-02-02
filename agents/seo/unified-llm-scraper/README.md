@@ -1,4 +1,4 @@
-# Universal LLM Scraper
+# Universal LLM Mentions Tracker
 
 ---
 <p align="center">
@@ -178,3 +178,4 @@ The UI is used for interactive runs, reporting, and schedule management.
 
 
 - The UI and headless runner are designed to run in parallel
+
