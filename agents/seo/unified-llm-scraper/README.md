@@ -24,6 +24,13 @@ Headless runner (headless_runner.py) for scheduled and automated jobs
 
 The goal is to run the same prompt across multiple LLMs and compare output in a normalized format with long-term storage and history.
 
+## Tech stack
+
+- Python 3.10+
+- Streamlit
+- Bright Data Scraping APIs
+- Supabase
+
 ## Prerequisites
 
 Python 3.10+ recommended

@@ -17,9 +17,11 @@ def check_nesting_depth():
         return ["agents/ directory not found"]
     
     for readme_file in agents_dir.rglob("README.md"):
+        if "node_modules" in readme_file.parts:
+            continue
         rel_path = readme_file.relative_to(agents_dir)
-        depth = len(rel_path.parts) - 1  
-        
+        depth = len(rel_path.parts) - 1
+
         if depth > 3:
             errors.append(f"README.md found at excessive nesting depth: {readme_file}")
     
@@ -94,9 +96,11 @@ def get_agent_readmes():
     agent_readmes = []
     
     for readme_file in agents_dir.rglob("README.md"):
+        if "node_modules" in readme_file.parts:
+            continue
         rel_path = readme_file.relative_to(agents_dir)
-        
-        if len(rel_path.parts) >= 3:  
+
+        if len(rel_path.parts) >= 3:
             agent_readmes.append(readme_file)
     
     return agent_readmes

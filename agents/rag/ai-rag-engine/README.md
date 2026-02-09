@@ -1,6 +1,14 @@
 # AI RAG Engine
 
-An enterprise-grade Retrieval-Augmented Generation (RAG) system built with Google Vertex AI and Google ADK (Agent Development Kit). This system enables intelligent document search and question-answering with grounded, verified responses.
+An enterprise-grade RAG system built with Google Vertex AI and Google ADK for intelligent document search and question-answering with grounded responses.
+
+## Tech stack
+
+- Python 3.8+
+- Google Vertex AI
+- Google ADK (Agent Development Kit)
+- Gemini Models
+- PyPDF2 / PyMuPDF
 
 ## Features
 

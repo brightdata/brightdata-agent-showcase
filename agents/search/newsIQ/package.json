@@ -1,5 +1,5 @@
 {
-  "name": "ai-news-assistant",
+  "name": "@brightdata/ai-news-assistant",
   "version": "0.1.0",
   "private": true,
   "scripts": {

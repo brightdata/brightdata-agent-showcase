@@ -1,5 +1,5 @@
 {
-  "name": "trip-planner",
+  "name": "@brightdata/trip-planner",
   "private": true,
   "version": "0.0.0",
   "type": "module",
